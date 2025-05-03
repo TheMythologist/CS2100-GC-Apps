@@ -1,5 +1,0 @@
-// -*- C++ -*-
-
-#include <assert.h>
-
-#pragma clang system_header

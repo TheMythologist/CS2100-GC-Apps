@@ -1,9 +1,0 @@
-	assume	adl=1
-
-	section	.text
-	public	__icmpzero
-__icmpzero:
-	add	hl, de
-	or	a, a
-	sbc	hl, de
-	ret

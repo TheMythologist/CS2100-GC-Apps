@@ -1,9 +1,0 @@
-	assume	adl=1
-
-	section	.text
-	public	__scmpzero
-__scmpzero:
-	add	hl, de
-	or	a, a
-	sbc.s	hl, de
-	ret
